@@ -6,7 +6,6 @@ function Image() {
   const [imageSize, setImageSize] = useState(550);
   const imageRef = useRef(null);
   const [imgExists, setImgExists] = useState(true);
-//   const initialSize = useRef({ width: 550, height: 400 });
 
   const handleAddImg = () => {
     if (!imgExists) {
@@ -49,7 +48,7 @@ function Image() {
         <a href="https://www.muenchen.de/en/home" target="_blank" rel="noopener noreferrer">
           <img 
             ref={imageRef}
-            src="/images/munich.jpg" 
+            src="images/munich.jpg" 
             alt="Munich" 
             className="munich-photo"
             style={{ 
