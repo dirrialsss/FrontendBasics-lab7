@@ -1,0 +1,42 @@
+.image-section {
+  padding: 25px;
+  background-color: #dec9c9;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.munich-photo {
+  display: block;
+  margin: 20px 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+  justify-content: left;
+}
+
+.munich-photo:hover {
+  transform: scale(1.02);
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: left;
+  margin-top: 25px;
+}
+
+.buttons button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #b88080;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #a56b6b;
+}
